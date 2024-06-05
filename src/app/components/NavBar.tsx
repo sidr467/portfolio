@@ -4,16 +4,16 @@ import Menu from "./Menu"
 
 function NavBar() {
   return (
-    <nav className="h-20 ring-1 border-b-white px-4 py-2 border-b-2 md:px-4 lg:px-8 xl:px-16 2xl:px-32">
+    <nav className="h-20 ring-1 border-b-white border-b-2 md:px-4 lg:px-8 xl:px-16 2xl:px-32">
       {/* MObile */}
-      <div className=" h-full md:hidden flex justify-between items-center relative ">
+      <div className=" h-full md:hidden flex justify-between items-center relative px-4 py-2 ">
         <h1 className=" text-xl font-bold tracking-wider">
           <Link href="/">&lt;Sid/&gt;</Link>
         </h1>
         <Menu />
       </div>
       {/* biggerScreen */}
-      <div className="hidden md:flex  h-full justify-between items-center">
+      <div className="hidden md:flex h-full justify-between items-center">
         {/* titleLogo */}
         <div>
           <h1 className=" text-3xl font-bold tracking-wider">
