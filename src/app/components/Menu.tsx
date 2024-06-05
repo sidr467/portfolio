@@ -17,7 +17,7 @@ function Menu() {
         onClick={() => setOpen((prev) => !prev)}
       />
       {open && (
-        <div className=" absolute bg-gray-900 left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-start gap-8 z-10 text-lg pt-10">
+        <div className=" absolute bg-gray-900 left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-start gap-8 z-10 text-md pt-10">
           <Link href="/" className=" hover:border-b-2 border-white">
             About
           </Link>
