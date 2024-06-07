@@ -42,9 +42,11 @@ function NavBar() {
               height={24}
             ></Image>
           </button>
-          <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
-            Download CV
-          </button>
+          <a href="./resume.pdf" download>
+            <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     </nav>
