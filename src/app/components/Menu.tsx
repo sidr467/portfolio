@@ -30,14 +30,14 @@ function Menu() {
           <Link href="/" className=" hover:border-b-2 border-white">
             Projects
           </Link>{" "}
-          <button className="hover:ring-2 ring-white rounded-full p-2">
+          {/* <button className="hover:ring-2 ring-white rounded-full p-2">
             <Image
               src="./nightmode.svg"
               alt="nightmodeIcon"
               width={24}
               height={24}
             ></Image>
-          </button>
+          </button> */}
           <a href="./resume.pdf" download>
             <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
               Download CV
