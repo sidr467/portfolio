@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import Menu from "./Menu"
 import { ModeToggle } from "@/components/toogle"
@@ -23,21 +22,33 @@ function NavBar() {
         </div>
         {/* NavLinks */}
         <div className="flex gap-6 items-center">
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link
+            href="/"
+            className=" hover:border-b-2 border-black dark:border-white "
+          >
             About
           </Link>
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link
+            href="/"
+            className=" hover:border-b-2 border-black dark:border-white"
+          >
             Skills
           </Link>
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link
+            href="/"
+            className=" hover:border-b-2 border-black dark:border-white"
+          >
             Experience
           </Link>
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link
+            href="/"
+            className=" hover:border-b-2 border-black dark:border-white"
+          >
             Projects
           </Link>{" "}
           <ModeToggle></ModeToggle>
           <a href="./resume.pdf" download>
-            <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
+            <button className="bg-black text-white dark:bg-white dark:text-black px-4 py-2 rounded-lg font-semibold">
               Download CV
             </button>
           </a>

@@ -16,7 +16,7 @@ function Profile() {
       {/* Text section */}
       <div className="flex flex-col gap-6 ">
         <h1 className=" text-xl font-bold">
-          Hi, I&apos;m <strong>Siddharth Rathod</strong>
+          Hi, I&apos;m <strong className=" tracking-wide">Siddharth Rathod</strong>
         </h1>
         <p className="text-sm ">
           A Full Stack Developer specializing in React.js and Node.js. I focus
