@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Menu from "./Menu"
+import { ModeToggle } from "@/components/toogle"
 
 function NavBar() {
   return (
@@ -42,6 +43,7 @@ function NavBar() {
               height={24}
             ></Image>
           </button> */}
+          <ModeToggle></ModeToggle>
           <a href="./resume.pdf" download>
             <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
               Download CV

@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import NavBar from "./components/NavBar"
 import "./globals.css"
+import { ThemeProvider } from "next-themes"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -18,8 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} flex flex-col gap-6 lg:gap-12`}>
-        <NavBar />
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NavBar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
