@@ -1,5 +1,6 @@
 "use client"
 
+import { ModeToggle } from "@/components/toogle"
 import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
@@ -8,36 +9,39 @@ function Menu() {
   const [open, setOpen] = useState(false)
   return (
     <div>
-      <Image
+      {/* <Image
         src="./hamburger.svg"
         alt="hamburgerIcon"
         width="24"
         height={24}
-        className="cursor-pointer"
+        className="cursor-pointer fill-current "
         onClick={() => setOpen((prev) => !prev)}
-      />
+      /> */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="24px"
+        viewBox="0 -960 960 960"
+        width="24px"
+        className=" fill-current cursor-pointer"
+        onClick={() => setOpen((prev) => !prev)}
+      >
+        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+      </svg>
       {open && (
         <div className=" absolute bg-gray-900 left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-start gap-8 z-10 text-md pt-10">
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link href="/" className=" hover:border-b-2 text-white border-white">
             About
           </Link>
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link href="/" className=" hover:border-b-2 text-white border-white">
             Skills
           </Link>
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link href="/" className=" hover:border-b-2 text-white border-white">
             Experience
           </Link>
-          <Link href="/" className=" hover:border-b-2 border-white">
+          <Link href="/" className=" hover:border-b-2 text-white border-white">
             Projects
           </Link>{" "}
-          {/* <button className="hover:ring-2 ring-white rounded-full p-2">
-            <Image
-              src="./nightmode.svg"
-              alt="nightmodeIcon"
-              width={24}
-              height={24}
-            ></Image>
-          </button> */}
+          <ModeToggle></ModeToggle>
           <a href="./resume.pdf" download>
             <button className="bg-white text-black px-4 py-2 rounded-lg font-semibold">
               Download CV
