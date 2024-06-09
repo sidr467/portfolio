@@ -16,7 +16,7 @@ function NavBar() {
       <div className="hidden md:flex h-full justify-between items-center">
         {/* titleLogo */}
         <div>
-          <h1 className=" text-3xl font-bold tracking-wider">
+          <h1 className=" text-3xl font-extrabold tracking-wider">
             <Link href="/">&lt;Sid/&gt;</Link>
           </h1>
         </div>
