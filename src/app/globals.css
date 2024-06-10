@@ -77,22 +77,21 @@
 
 @keyframes scrollText {
   0%,
-  45% {
-    opacity: 1;
-  }
-  50%,
-  95% {
-    opacity: 0;
-  }
   100% {
-    opacity: 1;
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  75% {
+    transform: translateY(-100%);
   }
 }
 
-.scroll-animation {
-  animation: scrollText 8s linear infinite;
-}
-
-.second-text {
-  animation-delay: 4s;
+.scroll-container {
+  top: 0;
+  animation: scrollText 6s linear infinite; /* Adjust duration as needed */
 }

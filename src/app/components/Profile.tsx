@@ -14,19 +14,16 @@ function Profile() {
         />
       </div>
       {/* Text section */}
-      <div className="flex flex-col gap-6 ">
-        <h1 className=" text-2xl font-bold">
-          Hi, I&apos;m <strong className="">Siddharth Rathod</strong>
+      <div className="flex flex-col justify-around items-start gap-6 ">
+        <h1 className=" text-xl">
+          Hi, I&apos;m <strong className="font-bold">Siddharth Rathod</strong>
         </h1>
         <div className=" w-48 h-12 relative overflow-hidden">
-          <h2 className="absolute w-full h-full flex text-3xl font-semibold scroll-animation   ">
-            Designer
-          </h2>
-          <h2 className="absolute w-full h-full flex text-3xl font-semibold scroll-animation second-text">
-            Developer
-          </h2>
+          <div className="absolute w-full h-full flex flex-col text-4xl font-semibold scroll-container">
+            <div className="flex items-center  h-full py-1">Designer</div>
+            <div className="flex items-center  h-full py-1">Developer</div>
+          </div>
         </div>
-
         {/* <p className="text-sm ">
           A Full Stack Developer specializing in React.js and Node.js. I focus
           on creating fast, accessible, visually appealing, and responsive
