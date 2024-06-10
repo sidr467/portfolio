@@ -23,7 +23,7 @@ function NavBar() {
         {/* NavLinks */}
         <div className="flex gap-6 items-center">
           <Link
-            href="/"
+            href="#about"
             className=" hover:border-b-2 border-black dark:border-white "
           >
             About
