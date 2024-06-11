@@ -29,19 +29,19 @@ function NavBar() {
             About
           </Link>
           <Link
-            href="/"
+            href="#skills"
             className=" hover:border-b-2 border-black dark:border-white"
           >
             Skills
           </Link>
           <Link
-            href="/"
+            href="#experience"
             className=" hover:border-b-2 border-black dark:border-white"
           >
             Experience
           </Link>
           <Link
-            href="/"
+            href="#projects"
             className=" hover:border-b-2 border-black dark:border-white"
           >
             Projects

@@ -8,13 +8,13 @@ function Profile() {
         <Image
           src="/image.png"
           alt="Profile Image"
-          width={200}
+          width={250}
           height={200}
           className=" bg-white object-cover rounded-lg m-auto self-center"
         />
       </div>
       {/* Text section */}
-      <div className="flex flex-col gap-6 ">
+      <div className="flex flex-col items-center gap-6 ">
         <h1 className=" text-lg md:text-xl">
           Hi, I&apos;m <strong className="font-bold">Siddharth Rathod</strong>
         </h1>

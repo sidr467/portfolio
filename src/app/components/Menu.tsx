@@ -29,16 +29,28 @@ function Menu() {
       </svg>
       {open && (
         <div className=" absolute bg-gray-900 left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-start gap-8 z-10 text-md pt-10">
-          <Link href="#about" className=" hover:border-b-2 text-white border-white">
+          <Link
+            href="#about"
+            className=" hover:border-b-2 text-white border-white"
+          >
             About
           </Link>
-          <Link href="/" className=" hover:border-b-2 text-white border-white">
+          <Link
+            href="#skills"
+            className=" hover:border-b-2 text-white border-white"
+          >
             Skills
           </Link>
-          <Link href="/" className=" hover:border-b-2 text-white border-white">
+          <Link
+            href="#experience"
+            className=" hover:border-b-2 text-white border-white"
+          >
             Experience
           </Link>
-          <Link href="/" className=" hover:border-b-2 text-white border-white">
+          <Link
+            href="#projects"
+            className=" hover:border-b-2 text-white border-white"
+          >
             Projects
           </Link>{" "}
           <ModeToggle></ModeToggle>
