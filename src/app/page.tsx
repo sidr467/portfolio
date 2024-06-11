@@ -1,6 +1,7 @@
 import Profile from "./components/Profile"
 import About from "./components/About"
 import Skills from "./components/Skills"
+import Experience from "./components/Experience"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Profile />
       <About></About>
       <Skills></Skills>
+      <Experience></Experience>
     </main>
   )
 }

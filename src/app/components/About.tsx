@@ -4,7 +4,7 @@ function About() {
       <h2 className="text-center text-base lg:text-lg font-bold py-2 px-4 ring-1 ring-black dark:ring-white w-fit rounded-lg  ">
         ABOUT
       </h2>
-      <p  className="text-base container mx-auto p-4 ">
+      <p className="text-base container mx-auto p-4 ">
         A Full Stack Developer specializing in React.js and Node.js. I focus on
         creating fast, accessible, visually appealing, and responsive digital
         experiences. And also creative front-end developer with more than +2
