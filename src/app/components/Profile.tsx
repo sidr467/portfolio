@@ -34,6 +34,7 @@ function Profile() {
         </p> */}
         <div className="flex gap-4 items-center ">
           <a
+            target="blank"
             href="https://github.com/sidr467"
             className="ring-black ring-1 text-center px-6 py-2 rounded-full  dark:ring-white hover:scale-105 hover:ring-2"
           >
@@ -48,6 +49,7 @@ function Profile() {
             </svg>
           </a>
           <a
+            target="blank"
             href="mailto:rsiddharth467@gmail.com"
             className="ring-black ring-1 text-center px-6 py-2 rounded-full  dark:ring-white hover:scale-105 hover:ring-2"
           >
@@ -62,6 +64,7 @@ function Profile() {
             </svg>
           </a>
           <a
+            target="blank"
             href="https://www.linkedin.com/in/siddharth-rathod-6524b926b/"
             className="ring-black ring-1 text-center px-6 py-2 rounded-full dark:ring-white hover:scale-105 hover:ring-2"
           >
