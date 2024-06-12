@@ -28,12 +28,12 @@ function Experience() {
   ]
 
   return (
-    <div className="flex flex-col gap-8 items-center container mx-auto p-4" id="experience">
+    <div className="flex flex-col gap-8 items-center" id="experience">
       <h2 className="text-center text-base lg:text-lg font-bold py-2 px-4 ring-1 ring-black dark:ring-white w-fit rounded-lg  ">
         Experience
       </h2>
       {/* Experience cards */}
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 max-w-[900px]">
         {experiences.map((experience, index: number) => (
           <ExperienceCard
             key={index}
