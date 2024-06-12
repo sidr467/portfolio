@@ -19,7 +19,7 @@ function Profile() {
           Hi, I&apos;m <strong className="font-bold">Siddharth Rathod</strong>
         </h1>
         <div className=" w-48 h-12 relative overflow-hidden">
-          <div className="absolute w-full h-full flex flex-col text-3xl md:text-4xl font-semibold scroll-container">
+          <div className="absolute w-full h-full flex flex-col text-2xl md:text-4xl font-semibold scroll-container">
             <div className="flex items-center  h-full py-1">Designer</div>
             <div className="flex items-center  h-full py-1">Developer</div>
           </div>
