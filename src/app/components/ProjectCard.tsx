@@ -5,7 +5,7 @@ function ProjectCard({ title, image, github, live }: any) {
   return (
     <div>
       <div>
-        <Image src={image} alt={title}></Image>
+        <Image src={image} alt={title} width={400} height={400} className=" object-contain" ></Image>
       </div>
       <div>
         <h2>{title}</h2>
