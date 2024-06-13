@@ -4,13 +4,13 @@ function Profile() {
   return (
     <div className="flex flex-col items-center container mx-auto gap-8 md:grid grid-cols-2">
       {/* Image Section */}
-      <div className=" w-40 sm:w-52 md:w-72  md:order-2 ">
+      <div className=" w-full md:order-2 ">
         <Image
           src="/image.png"
           alt="Profile Image"
           width={250}
           height={200}
-          className=" bg-white object-cover rounded-lg m-auto self-center"
+          className="w-40 sm:w-52 md:w-60 bg-white object-cover rounded-lg mx-auto "
         />
       </div>
       {/* Text section */}
