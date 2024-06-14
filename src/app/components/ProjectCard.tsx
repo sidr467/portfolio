@@ -10,7 +10,7 @@ function ProjectCard({ title, image, github, live, gitsvg }: any) {
           alt={title}
           width={400}
           height={400}
-          className=" object-contain"
+          className=" object-cover rounded-sm  "
         ></Image>
       </div>
       <div className="flex flex-col gap-4  justify-center items-center">
