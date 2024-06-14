@@ -29,7 +29,7 @@ function Experience() {
 
   return (
     <div className="flex flex-col gap-8 items-center" id="experience">
-      <h2 className="text-center text-base lg:text-lg font-bold py-2 px-4 ring-1 ring-black dark:ring-white w-fit rounded-lg  ">
+      <h2 className="text-base lg:text-lg font-bold py-2 px-4 ring-1 ring-black dark:ring-white w-fit rounded-lg  ">
         Experience
       </h2>
       {/* Experience cards */}

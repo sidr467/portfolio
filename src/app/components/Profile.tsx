@@ -2,7 +2,7 @@ import Image from "next/image"
 
 function Profile() {
   return (
-    <div className="flex flex-col items-center container mx-auto gap-8 md:grid grid-cols-2">
+    <div className="flex flex-col items-center mx-auto gap-8 md:grid grid-cols-2">
       {/* Image Section */}
       <div className=" w-full md:order-2 ">
         <Image

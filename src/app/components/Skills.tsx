@@ -77,7 +77,7 @@ function Skills() {
               height={50}
               className="w-12 h-12 object-contain  dark:bg-white px-2 py-1 rounded-md"
             ></Image>
-            <p className="text-xs font-semibold">Express JS</p>
+            <p className="text-xs font-semibold">ExpressJS</p>
           </div>
           <div className="flex flex-col items-center gap-2">
             <Image
