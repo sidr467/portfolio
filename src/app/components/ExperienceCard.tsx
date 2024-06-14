@@ -12,7 +12,7 @@ function ExperienceCard({ title, company, duration, description }: any) {
           {duration}
         </p>
       </div>
-      <p className="text-sm md:text-base  text-gray-700 font-medium dark:text-gray-400">
+      <p className="text-sm md:text-base text-gray-700 font-medium dark:text-gray-400">
         {description}
       </p>
     </div>
