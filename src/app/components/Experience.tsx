@@ -9,7 +9,7 @@ function Experience() {
       company: "Anik Software Technologies",
       duration: "Jan 2023 - Present",
       description:
-        "Provided engaging and informative lessons on HTML, CSS, JavaScript, and Bootstrap to students at various skill levels. Managed and curated content for social media channels to enhance visibility andengagement.Fostered a vibrant community by encouraging interaction and participation amongstudents.Promoted educational resources effectively through strategic use of social media and other channels.",
+        "Provided engaging and informative lessons on HTML, CSS, JavaScript, and Bootstrap to students at various skill levels. Fostered a vibrant community by encouraging interaction and participation among students. Managed and curated content for social media channels to enhance visibility and engagement.",
     },
     {
       title: "Intern in Python with Django",
