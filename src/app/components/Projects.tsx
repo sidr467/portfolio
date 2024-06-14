@@ -9,13 +9,13 @@ function Projects() {
       live: "https://portfolio-jbbnv0dtl-rsidd467.vercel.app/",
       gitsvg: "/gitSvg.svg",
     },
-    // {
-    //   title: "Portfolio",
-    //   image: "/pf.png",
-    //   github: "https://github.com/sidr467",
-    //   live: "https://github.com/sidr467",
-    //   gitsvg: "/gitSvg.svg",
-    // },
+    {
+      title: "FrontEnd Mentor Profile",
+      image: "/fm.png",
+      github: "https://github.com/sidr467",
+      live: "https://www.frontendmentor.io/profile/sidr467",
+      gitsvg: "/gitSvg.svg",
+    },
     // {
     //   title: "Portfolio",
     //   image: "/pf.png",
