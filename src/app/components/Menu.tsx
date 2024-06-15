@@ -10,14 +10,15 @@ function Menu() {
 
   const toggleMenu = () => {
     setOpen(!open)
-    if (!open) {
-      document.body.style.overflow = "hidden"
-    } else {
-      document.body.style.overflow = "auto"
-    }
+    document.body.style.overflow = open ? "auto" : "hidden"
   }
 
-  const closeMenu = () => {
+  const closeMenu = (e: any, targetId: string) => {
+    e.preventDefault()
+    const targetElement = document.getElementById(targetId)
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" })
+    }
     setOpen(false)
     document.body.style.overflow = "auto"
   }
@@ -39,28 +40,28 @@ function Menu() {
           <Link
             href="#about"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={closeMenu}
+            onClick={(e) => closeMenu(e, "about")}
           >
             About
           </Link>
           <Link
             href="#skills"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={closeMenu}
+            onClick={(e) => closeMenu(e, "skills")}
           >
             Skills
           </Link>
           <Link
             href="#experience"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={closeMenu}
+            onClick={(e) => closeMenu(e, "experience")}
           >
             Experience
           </Link>
           <Link
             href="#projects"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={closeMenu}
+            onClick={(e) => closeMenu(e, "projects")}
           >
             Projects
           </Link>{" "}
