@@ -1,29 +1,69 @@
-This is my personal portfolio project created with Next.JS
+<p align="center"><img src="https://socialify.git.ci/sidr467/portfolio/image?font=Jost&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="portfolio" width="640" height="320" />
+</p>
 
-## Getting Started
+---
 
-First, Install dependencies:
+<p align="center"> PortFolio by Siddharth Rathod
+    <br> 
+</p>
 
-```bash
+## 📝 Table of Contents
+
+- [About](#about)
+- [ScreenShot](#ss)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Built Using](#built_using)
+- [Authors](#authors)
+
+## 🧐 About <a name = "about"></a>
+
+This is my personal portfolio website made by using NextJS.
+
+- Live : https://portfolio-rsidd467.vercel.app
+
+## 📷 Screenshot <a name = "ss"></a>
+
+![ScreenShot](./public/pf.png)
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+Just clone this repository.
+
+```
+git clone This_Repo_URL
+```
+
+### Installing
+
+Install dependencies:
+
+```
 npm i
 ```
 
-Run the development server:
+Run development server:
 
-```bash
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Deployment <a name = "deployment"></a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is deployed using [Vercel](https://vercel.com).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Roboto_Mono, a custom Google Font.
+## ⛏️ Built Using <a name = "built_using"></a>
 
-![](./pf.png)
+- [NextJs](https://nextjs.org/) - React Framework
+- [Tailwind](https://tailwindcss.com/) - CSS Framework
+- [Typescript](https://www.typescriptlang.org/) - Programming language
+- [React](https://react.dev/) - Web library
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@sidr467](https://github.com/sidr467) - Idea & Initial work
