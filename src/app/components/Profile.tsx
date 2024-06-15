@@ -10,7 +10,7 @@ function Profile() {
           alt="Profile Image"
           width={250}
           height={200}
-          className="w-40 sm:w-52 md:w-60 bg-white object-cover rounded-lg mx-auto "
+          className="w-40 sm:w-52 md:w-60 bg-white object-cover rounded-lg mx-auto shadow-2xl shadow-black  "
         />
       </div>
       {/* Text section */}
@@ -20,18 +20,14 @@ function Profile() {
         </h1>
         <div className=" w-48 h-12 relative overflow-hidden">
           <div className="absolute w-full h-full flex flex-col text-2xl md:text-4xl font-semibold scroll-container">
-            <div className="flex items-center mx-auto  h-full py-1">Designer</div>
-            <div className="flex items-center mx-auto h-full py-1">Developer</div>
+            <div className="flex items-center mx-auto  h-full py-1">
+              Designer
+            </div>
+            <div className="flex items-center mx-auto h-full py-1">
+              Developer
+            </div>
           </div>
         </div>
-        {/* <p className="text-sm ">
-          A Full Stack Developer specializing in React.js and Node.js. I focus
-          on creating fast, accessible, visually appealing, and responsive
-          digital experiences. And also creative front-end developer with more
-          than +2 years of experience in enterprise companies and startups.
-          Proficient in Html, Tailwind Css, Javascript and React. Passionate
-          about UI/UX.
-        </p> */}
         <div className="flex gap-4 items-center ">
           <a
             target="blank"

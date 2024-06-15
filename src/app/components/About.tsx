@@ -10,7 +10,7 @@ function About() {
         focus on user experience, pixel-perfect design, and code with
         high-performance. I started my web development journey in college and
         have been evolving ever since I&apos;m building web applications using
-        modern technologies like Next.js, TypeScript, React.js, TailwindCSS, and
+        modern technologies like Next.js, TypeScript, React.js, Tailwind CSS, and
         more. Also curious about UI/UX.
       </p>
     </div>
