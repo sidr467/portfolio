@@ -7,23 +7,30 @@ import Link from "next/link"
 
 function Menu() {
   const [open, setOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setOpen(!open)
+    if (!open) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "auto"
+    }
+  }
+
+  const closeMenu = () => {
+    setOpen(false)
+    document.body.style.overflow = "auto"
+  }
+
   return (
     <div>
-      {/* <Image
-        src="./hamburger.svg"
-        alt="hamburgerIcon"
-        width="24"
-        height={24}
-        className="cursor-pointer fill-current "
-        onClick={() => setOpen((prev) => !prev)}
-      /> */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="24px"
         viewBox="0 -960 960 960"
         width="24px"
         className=" fill-current cursor-pointer"
-        onClick={() => setOpen((prev) => !prev)}
+        onClick={toggleMenu}
       >
         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
       </svg>
@@ -32,28 +39,28 @@ function Menu() {
           <Link
             href="#about"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={() => setOpen((prev) => !prev)}
+            onClick={closeMenu}
           >
             About
           </Link>
           <Link
             href="#skills"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={() => setOpen((prev) => !prev)}
+            onClick={closeMenu}
           >
             Skills
           </Link>
           <Link
             href="#experience"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={() => setOpen((prev) => !prev)}
+            onClick={closeMenu}
           >
             Experience
           </Link>
           <Link
             href="#projects"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
-            onClick={() => setOpen((prev) => !prev)}
+            onClick={closeMenu}
           >
             Projects
           </Link>{" "}
