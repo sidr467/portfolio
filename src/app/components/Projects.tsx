@@ -6,7 +6,7 @@ function Projects() {
       title: "Portfolio",
       image: "/pf.png",
       github: "https://github.com/sidr467/portfolio",
-      live: "https://portfolio-jbbnv0dtl-rsidd467.vercel.app/",
+      live: "https://portfolio-rsidd467.vercel.app/",
       gitsvg: "/gitSvg.svg",
     },
     {
