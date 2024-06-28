@@ -3,7 +3,7 @@ import { Roboto_Mono } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "next-themes"
 
-const inter = Roboto_Mono({ subsets: ["latin"] })
+const roboto = Roboto_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Siddharth Rathod",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col gap-6 lg:gap-12`}>
+      <body className={`${roboto.className} flex flex-col gap-6 lg:gap-12`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
