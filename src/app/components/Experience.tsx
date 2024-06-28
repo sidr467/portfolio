@@ -1,6 +1,5 @@
 import React from "react"
 import ExperienceCard from "./ExperienceCard"
-import { title } from "process"
 
 function Experience() {
   const experiences = [
