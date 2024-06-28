@@ -16,13 +16,6 @@ function Projects() {
       live: "https://www.frontendmentor.io/profile/sidr467",
       gitsvg: "/gitSvg.svg",
     },
-    // {
-    //   title: "Portfolio",
-    //   image: "/pf.png",
-    //   github: "https://github.com/sidr467",
-    //   live: "https://github.com/sidr467",
-    //   gitsvg: "/gitSvg.svg",
-    // },
   ]
 
   return (

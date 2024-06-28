@@ -1,9 +1,7 @@
 import type { Metadata } from "next"
 import { Roboto_Mono } from "next/font/google"
-import NavBar from "./components/NavBar"
 import "./globals.css"
 import { ThemeProvider } from "next-themes"
-import Footer from "./components/Footer"
 
 const inter = Roboto_Mono({ subsets: ["latin"] })
 
@@ -26,9 +24,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <NavBar />
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
