@@ -9,12 +9,12 @@ function NavBar() {
     e.preventDefault()
     const targetElement = document.getElementById(targetId)
     if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" },)
+      targetElement.scrollIntoView({ behavior: "smooth" })
     }
   }
 
   return (
-    <nav className="h-20 md:px-4 lg:px-8 xl:px-16 2xl:px-32 md:container ">
+    <nav className="h-20 md:px-4 lg:px-8 xl:px-16 2xl:px-32 md:container  ">
       {/* MObile */}
       <div className=" h-full md:hidden flex justify-between items-center relative px-4 py-2 ">
         <h1 className=" text-xl font-bold tracking-wider">
