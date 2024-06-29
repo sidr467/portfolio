@@ -40,7 +40,7 @@ function Menu() {
             </Link>
           ))}
           <ModeToggle></ModeToggle>
-          <Link href="./resume.pdf" download>
+          <Link href="./resume.pdf" download target="blank">
             <button className="bg-black dark:bg-white dark:text-black text-white px-4 py-2 rounded-lg font-semibold">
               Download CV
             </button>

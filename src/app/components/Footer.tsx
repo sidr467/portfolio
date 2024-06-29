@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { IoMail } from "react-icons/io5"
 import { AiOutlineCopyrightCircle } from "react-icons/ai"
+import { AlignCenter } from "lucide-react"
 
 function Footer() {
   return (

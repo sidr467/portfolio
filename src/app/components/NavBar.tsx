@@ -44,11 +44,11 @@ function NavBar() {
             </Link>
           ))}
           <ModeToggle></ModeToggle>
-          <a href="./resume.pdf" download>
+          <Link href="./resume.pdf" download target="blank">
             <button className="bg-black text-white dark:bg-white dark:text-black px-4 py-2 rounded-lg font-semibold">
               Download CV
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
