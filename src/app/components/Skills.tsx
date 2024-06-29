@@ -1,4 +1,85 @@
 import Image from "next/image"
+import { SiJavascript } from "react-icons/si"
+import { SiTypescript } from "react-icons/si"
+import { SiReact } from "react-icons/si"
+import { RiNextjsLine } from "react-icons/ri"
+import { FaNodeJs } from "react-icons/fa6"
+import { SiExpress } from "react-icons/si"
+import { SiTailwindcss } from "react-icons/si"
+import { SiMongodb } from "react-icons/si"
+import { FaGitAlt } from "react-icons/fa6"
+import { FaHtml5 } from "react-icons/fa"
+import { FaCss3Alt } from "react-icons/fa"
+import { BsFillBootstrapFill } from "react-icons/bs"
+// import { skillIcons } from "./Skills"
+
+//Skills react icons
+const skillIcons = [
+  {
+    name: "Javascript",
+    svg: <SiJavascript className="w-12 h-12 fill-yellow-400 rounded-sm" />,
+  },
+  {
+    name: "Typescript",
+    svg: (
+      <SiTypescript className="w-12 h-12 fill-blue-500 bg-white rounded-sm" />
+    ),
+  },
+  {
+    name: "React",
+    svg: <SiReact className="w-12 h-12 fill-blue-500" />,
+  },
+  {
+    name: "NextJS",
+    svg: <RiNextjsLine className="w-12 h-12 fill-current" />,
+  },
+  {
+    name: "NodeJS",
+    svg: <FaNodeJs className="w-12 h-12 fill-[#5FA04E]" />,
+  },
+  {
+    name: "MongoDB",
+    svg: <SiMongodb className="w-12 h-12 fill-green-800" />,
+  },
+  {
+    name: "ExpressJS",
+    svg: (
+      <SiExpress className="w-12 h-12 dark:bg-current fill-black p-2 rounded-sm" />
+    ),
+  },
+  {
+    name: "Tailwind",
+    svg: <SiTailwindcss className="w-12 h-12 fill-[#38BDF8]" />,
+  },
+  {
+    name: "Figma",
+    svg: (
+      <Image
+        src="/figma.svg"
+        alt="figmaSVG"
+        width={50}
+        height={50}
+        className="w-12 h-12 object-contain"
+      ></Image>
+    ),
+  },
+  {
+    name: "Git",
+    svg: <FaGitAlt className="w-12 h-12 fill-[#F4511E]" />,
+  },
+  {
+    name: "HTML",
+    svg: <FaHtml5 className="w-12 h-12 fill-orange-500" />,
+  },
+  {
+    name: "CSS",
+    svg: <FaCss3Alt className="w-12 h-12 fill-blue-500" />,
+  },
+  {
+    name: "Bootstrap",
+    svg: <BsFillBootstrapFill className="w-12 h-12 fill-violet-700" />,
+  },
+]
 
 function Skills() {
   return (
@@ -8,138 +89,12 @@ function Skills() {
       </h2>
       <div className="mx-auto container p-4">
         <div className=" grid gap-x-4 gap-y-8 justify-center items-center grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-8">
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/js.svg"
-              alt="jsSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Javascript</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/ts.svg"
-              alt="tsSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Typescript</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/react.svg"
-              alt="reactSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">React</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/next.svg"
-              alt="nextSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Next.js</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/node.svg"
-              alt="nodeSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Node.js</p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/mongo.svg"
-              alt="mongoSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">MongoDB</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/express.svg"
-              alt="expressSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain  dark:bg-white px-2 py-1 rounded-md"
-            ></Image>
-            <p className="text-xs font-semibold">ExpressJS</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/tailwind.svg"
-              alt="tailwindSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Tailwind</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/figma.svg"
-              alt="figmaSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Figma</p>
-          </div>
-
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/git.svg"
-              alt="gitSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Git</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/html.png"
-              alt="gitSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">HTML</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/css.png"
-              alt="gitSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">CSS</p>
-          </div>
-          <div className="flex flex-col items-center gap-2">
-            <Image
-              src="/bootstrap.png"
-              alt="gitSVG"
-              width={50}
-              height={50}
-              className="w-12 h-12 object-contain"
-            ></Image>
-            <p className="text-xs font-semibold">Bootstrap</p>
-          </div>
+          {skillIcons.map((skill: any, index: any) => (
+            <div key={index} className="flex flex-col items-center gap-2">
+              {skill.svg}
+              <p className="text-xs font-semibold">{skill.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
