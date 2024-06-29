@@ -4,17 +4,21 @@ function Projects() {
   const projects = [
     {
       title: "Portfolio",
-      image: "/pf.png",
+      image: "/projects/portfolio.png",
       github: "https://github.com/sidr467/portfolio",
       live: "https://portfolio-rsidd467.vercel.app/",
-      gitsvg: "/gitSvg.svg",
     },
     {
       title: "FrontEnd Mentor Profile",
-      image: "/fm.png",
+      image: "/projects/frontend-profile.png",
       github: "https://github.com/sidr467",
       live: "https://www.frontendmentor.io/profile/sidr467",
-      gitsvg: "/gitSvg.svg",
+    },
+    {
+      title: "FrontEnd Mentor challenges",
+      image: "/projects/frontend-challenges.png",
+      github: "https://github.com/sidr467/frontend_mentor",
+      live: "https://frontend-mentor-rsidd467.vercel.app/",
     },
   ]
 
@@ -31,7 +35,6 @@ function Projects() {
             title={project.title}
             github={project.github}
             live={project.live}
-            gitsvg={project.gitsvg}
           />
         ))}
       </div>

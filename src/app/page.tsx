@@ -14,10 +14,9 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Simulate a loading delay
     const timer = setTimeout(() => {
       setLoading(false)
-    }, 2000) // Change the delay as needed
+    }, 2000)
 
     return () => clearTimeout(timer)
   }, [])
