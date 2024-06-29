@@ -1,9 +1,9 @@
 "use client"
 
 import { ModeToggle } from "@/components/toogle"
-import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
+import { navLinks } from "./NavLinks"
 
 function Menu() {
   const [open, setOpen] = useState(false)
@@ -37,7 +37,17 @@ function Menu() {
       </svg>
       {open && (
         <div className=" absolute bg-gray-500  dark:bg-gray-900  left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-start gap-8 z-10 text-md pt-10">
-          <Link
+          {navLinks.map((data: any, index: any) => (
+            <Link
+              key={index}
+              href={`#${data.href}`}
+              className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
+              onClick={(e) => closeMenu(e, `${data.href}`)}
+            >
+              {data.name}
+            </Link>
+          ))}
+          {/* <Link
             href="#about"
             className=" hover:border-b-2 text-black dark:text-white  border-black  dark:border-white"
             onClick={(e) => closeMenu(e, "about")}
@@ -64,7 +74,7 @@ function Menu() {
             onClick={(e) => closeMenu(e, "projects")}
           >
             Projects
-          </Link>{" "}
+          </Link>{" "} */}
           <ModeToggle></ModeToggle>
           <a href="./resume.pdf" download>
             <button className="bg-black dark:bg-white dark:text-black text-white px-4 py-2 rounded-lg font-semibold">

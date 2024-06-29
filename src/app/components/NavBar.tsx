@@ -3,6 +3,7 @@
 import Link from "next/link"
 import Menu from "./Menu"
 import { ModeToggle } from "@/components/toogle"
+import {navLinks} from "./NavLinks"
 
 function NavBar() {
   const navScroll = (e: any, targetId: string) => {
@@ -32,34 +33,16 @@ function NavBar() {
         </div>
         {/* NavLinks */}
         <div className="flex gap-6 items-center">
-          <Link
-            href="#about"
-            className=" hover:border-b-2  border-black dark:border-white "
-            onClick={(e) => navScroll(e, "about")}
-          >
-            About
-          </Link>
-          <Link
-            href="#skills"
-            className=" hover:border-b-2 border-black dark:border-white"
-            onClick={(e) => navScroll(e, "skills")}
-          >
-            Skills
-          </Link>
-          <Link
-            href="#experience"
-            className=" hover:border-b-2 border-black dark:border-white"
-            onClick={(e) => navScroll(e, "experience")}
-          >
-            Experience
-          </Link>
-          <Link
-            href="#projects"
-            className=" hover:border-b-2 border-black dark:border-white"
-            onClick={(e) => navScroll(e, "projects")}
-          >
-            Projects
-          </Link>{" "}
+          {navLinks.map((data:any, index:any) => (
+            <Link
+              key={index}
+              href={`#${data.href}`}
+              className=" hover:border-b-2 border-black dark:border-white"
+              onClick={(e) => navScroll(e, `${data.href}`)}
+            >
+              {data.name}
+            </Link>
+          ))}
           <ModeToggle></ModeToggle>
           <a href="./resume.pdf" download>
             <button className="bg-black text-white dark:bg-white dark:text-black px-4 py-2 rounded-lg font-semibold">
