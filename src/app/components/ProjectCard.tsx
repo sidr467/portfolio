@@ -14,6 +14,7 @@ function ProjectCard({ title, image, github, live }: any) {
           width={400}
           height={400}
           className="object-cover rounded-sm hover:scale-105 duration-500 "
+          priority={true}
         ></Image>
       </div>
       <div className="flex flex-col gap-4  justify-center items-center">

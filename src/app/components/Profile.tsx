@@ -30,7 +30,7 @@ function Profile() {
           width={250}
           height={200}
           className="w-40 sm:w-52 md:w-60 bg-white object-cover rounded-lg mx-auto shadow-2xl shadow-black  "
-          priority
+          priority={true}
         />
       </div>
       {/* Text section */}
