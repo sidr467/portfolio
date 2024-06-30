@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { IoMail } from "react-icons/io5"
 import { AiOutlineCopyrightCircle } from "react-icons/ai"
-import { AlignCenter } from "lucide-react"
 
 function Footer() {
   return (
@@ -17,7 +16,7 @@ function Footer() {
         href="mailto:rsiddharth467@gmail.com"
         className=" text-base md:text-xl flex items-center justify-center gap-4 cursor-pointer hover:underline"
       >
-        <IoMail size={22}/>
+        <IoMail size={22} />
         <h2>rsiddharth467@gmai.com</h2>
       </Link>
       <footer className=" text-[10px] flex gap-2 items-center">

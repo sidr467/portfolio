@@ -13,7 +13,7 @@ function ProjectCard({ title, image, github, live }: any) {
           alt={title}
           width={400}
           height={400}
-          className=" object-cover rounded-sm hover:scale-105 duration-500 "
+          className="object-cover rounded-sm hover:scale-105 duration-500 "
         ></Image>
       </div>
       <div className="flex flex-col gap-4  justify-center items-center">
@@ -21,7 +21,7 @@ function ProjectCard({ title, image, github, live }: any) {
         <div className="text-sm md:text-base flex gap-2">
           <Link href={github} target="blank">
             <button className="dark:bg-white bg-black text-white dark:text-black rounded-md px-2 py-1 font-medium flex gap-4 items-center">
-              <FiGithub size={20}/>
+              <FiGithub size={20} />
               <span>Github</span>
             </button>
           </Link>

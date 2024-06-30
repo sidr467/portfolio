@@ -5,9 +5,9 @@ import About from "./components/About"
 import Skills from "./components/Skills"
 import Experience from "./components/Experience"
 import Projects from "./components/Projects"
-import Loading from "./loading"
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
+import Loading from "./loading"
 import { useState, useEffect } from "react"
 
 export default function Home() {
