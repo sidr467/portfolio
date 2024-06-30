@@ -25,11 +25,11 @@ function Profile() {
       {/* Image Section */}
       <div className=" w-full md:order-2 ">
         <Image
-          src="/image.png"
+          src="/image.jpeg"
           alt="Profile Image"
-          width={250}
+          width={200}
           height={200}
-          className="w-40 sm:w-52 md:w-60 bg-white object-cover rounded-lg mx-auto shadow-2xl shadow-black  "
+          className="w-40 sm:w-52 md:w-60 sm:h-52 h-40 md:h-60 bg-white object-cover rounded-lg mx-auto shadow-2xl shadow-black  "
           priority={true}
         />
       </div>
