@@ -24,7 +24,7 @@ This is my personal portfolio website made by using NextJS.
 
 ## 📷 Screenshot <a name = "ss"></a>
 
-![ScreenShot](./public/pf.png)
+![ScreenShot](./public/projects/portfolio.png)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
