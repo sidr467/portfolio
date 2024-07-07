@@ -17,7 +17,7 @@ function Footer() {
         className=" text-base md:text-xl flex items-center justify-center gap-4 cursor-pointer hover:underline"
       >
         <IoMail size={22} />
-        <h2>rsiddharth467@gmai.com</h2>
+        <h2>rsiddharth467@gmail.com</h2>
       </Link>
       <footer className=" text-[10px] flex gap-2 items-center">
         <AiOutlineCopyrightCircle size={14} />
