@@ -3,7 +3,9 @@
 import Link from "next/link"
 import Menu from "./Menu"
 import { ModeToggle } from "@/components/toogle"
-import {navLinks} from "./NavLinks"
+import { navLinks } from "./NavLinks"
+import { IoMdCodeDownload } from "react-icons/io"
+import ResumeButton from "./ResumeButton"
 
 function NavBar() {
   const navScroll = (e: any, targetId: string) => {
@@ -33,7 +35,7 @@ function NavBar() {
         </div>
         {/* NavLinks */}
         <div className="flex gap-6 items-center">
-          {navLinks.map((data:any, index:any) => (
+          {navLinks.map((data: any, index: any) => (
             <Link
               key={index}
               href={`#${data.href}`}
@@ -44,11 +46,7 @@ function NavBar() {
             </Link>
           ))}
           <ModeToggle></ModeToggle>
-          <Link href="./resume.pdf" download target="blank">
-            <button className="bg-black text-white dark:bg-white dark:text-black px-4 py-2 rounded-lg font-semibold">
-              Resume
-            </button>
-          </Link>
+          <ResumeButton />
         </div>
       </div>
     </nav>

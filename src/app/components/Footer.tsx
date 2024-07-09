@@ -16,18 +16,22 @@ function Footer() {
         href="mailto:rsiddharth467@gmail.com"
         className=" text-base md:text-xl flex items-center justify-center gap-4 cursor-pointer hover:underline"
       >
-        <IoMail size={22} />
+        <div className="pt-1">
+          <IoMail size={22} />
+        </div>
         <h2>rsiddharth467@gmail.com</h2>
       </Link>
       <footer className=" text-[10px] flex gap-2 items-center">
-        <AiOutlineCopyrightCircle size={14} />
+        <div>
+          <AiOutlineCopyrightCircle size={14} />
+        </div>
         <p>
           Designed and coded by{" "}
           <Link
             href="https://github.com/sidr467"
             className="cursor-pointer hover:underline"
           >
-            Siddharth Rathod
+            Siddharth Rathod.
           </Link>
         </p>
       </footer>

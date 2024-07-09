@@ -23,14 +23,18 @@ function ProjectCard({ title, image, github, live }: any) {
         <h2 className="text-base md:text-lg font-bold">{title}</h2>
         <div className="text-sm md:text-base flex gap-2">
           <Link href={github} target="blank">
-            <button className="dark:bg-white bg-black text-white dark:text-black rounded-md px-2 py-1 font-medium flex gap-4 items-center">
-              <FiGithub size={20} />
+            <button className="dark:bg-white bg-black text-white dark:text-black rounded-md px-2 py-1 font-medium flex gap-2 items-center">
+              <span className="pt-0.5">
+                <FiGithub size={20} />
+              </span>
               <span>Github</span>
             </button>
           </Link>
           <Link href={live} target="blank">
-            <button className="dark:bg-white bg-black text-white dark:text-black rounded-md px-2 py-1 font-medium flex gap-4 items-center">
-              <MdArrowOutward size={20} />
+            <button className="dark:bg-white bg-black text-white dark:text-black rounded-md px-2 py-1 font-medium flex gap-2 items-center">
+              <span className="pt-0.5">
+                <MdArrowOutward size={20} />
+              </span>
               <span>Live</span>
             </button>
           </Link>
