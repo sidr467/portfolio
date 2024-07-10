@@ -29,7 +29,7 @@ function Menu() {
     <div>
       <GiHamburgerMenu onClick={toggleMenu} size={20} />
       {open && (
-        <div className=" absolute bg-gray-500  dark:bg-gray-900 left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center gap-8 z-10 text-md pt-10">
+        <div className=" absolute bg-gray-500 dark:bg-gray-900 left-0 top-20 w-full h-[calc(100vh-80px)] flex flex-col items-center gap-8 z-10 text-md pt-10">
           {navLinks.map((data: any, index: any) => (
             <Link
               key={index}

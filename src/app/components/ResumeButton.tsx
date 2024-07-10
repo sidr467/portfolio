@@ -4,7 +4,7 @@ import { IoMdCodeDownload } from "react-icons/io"
 const ResumeButton = () => {
   return (
     <div>
-      <Link href="./resume.pdf" download target="blank">
+      <Link href="/resume.pdf" download target="blank">
         <button className="bg-black dark:bg-white dark:text-black text-white flex items-center gap-2 px-4 py-1 rounded-lg">
           <div>
             <IoMdCodeDownload size={25} className="mt-[0.1rem]" />

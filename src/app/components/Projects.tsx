@@ -23,11 +23,11 @@ function Projects() {
   ]
 
   return (
-    <div className="flex flex-col gap-8 items-center" id="projects">
+    <div className="flex flex-col gap-8 items-center px-4" id="projects">
       <h2 className="text-center text-base lg:text-lg font-bold py-2 px-4 ring-1 ring-black dark:ring-white w-fit rounded-lg  ">
         Projects
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 min-w-[320px] sm:min-w-[400px] md:min-w-[520px] lg:min-w-[600px] gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-w-[320px] sm:min-w-[400px] md:min-w-[520px] lg:min-w-[600px] gap-8">
         {projects.map((project, index: number) => (
           <ProjectCard
             key={index}
