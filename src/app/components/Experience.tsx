@@ -6,7 +6,7 @@ function Experience() {
     {
       title: "Web development Instructor",
       company: "Anik Software Technologies",
-      duration: "Jan 2023 - Present",
+      duration: "Jan 2023 - May 2024",
       description:
         "Provided engaging and informative lessons on HTML, CSS, JavaScript, and Bootstrap to students at various skill levels. Fostered a vibrant community by encouraging interaction and participation among students. Managed and curated content for social media channels to enhance visibility and engagement.",
     },
