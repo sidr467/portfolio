@@ -13,7 +13,7 @@ function Experience() {
     {
       title: "Intern in Python with Django",
       company: "BrainyBeam Technologies",
-      duration: "Jan 2022 - Apri 2022",
+      duration: "Jan 2022 - April 2022",
       description:
         "Developed a location-based vehicle service platform using Python with Django. Streamlined vehicle service requests by connecting users with nearby service providers through location-based services. Enhanced user experience with features for real-time tracking and efficient service request management.",
     },
